@@ -4,7 +4,7 @@ const fundDataDetails = require('../data/funds_detail.json')
 
 
 router.get('/', (req, res) => {
-    res.send('Serve is running!');
+    res.send('Server is running!');
 })
 
 router.get('/funds', (req, res) => {
